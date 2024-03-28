@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.25em;
+  border-bottom: 1px solid gray;
+}
+
+.navbar > ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.navbar > ul > li > a,
+.navbar > ul > li > button {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: rgb(23, 23, 107);
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.navbar > .logo {
+  width: 80px;
+}
